@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Raw vs LOESS vs SERRF normalization comparison for untargeted LC-MS data"
+abstract: >-
+  R workflow comparing uncorrected, LOESS-corrected and SERRF-corrected
+  untargeted LC-MS peak areas (Compound Discoverer 3.4 exports) across analytical
+  batches, with PQC-anchored between-batch scaling, CV assessment of quality-control
+  materials, and PCA coloured by batch.
+authors:
+  - family-names: "Pisklakova"
+    given-names: "Barbora"
+    affiliation: "Section for Metabolomics & Lipidomics, Oslo University Hospital"
+  - family-names: "Kvasnička"
+    given-names: "Aleš"
+    affiliation: "Section for Metabolomics & Lipidomics, Oslo University Hospital"
+version: "1.0.0"
+license: MIT
+keywords:
+  - metabolomics
+  - lipidomics
+  - LC-MS
+  - batch correction
+  - LOESS
+  - SERRF
+# Add after the repository is moved/published:
+# repository-code: "https://github.com/OUS-MOL/<repository-name>"
+# doi: "10.5281/zenodo.XXXXXXX"        # Zenodo DOI of the v1.0.0 release
+# date-released: "YYYY-MM-DD"
+references:
+  - type: article
+    title: "Systematic Error Removal Using Random Forest for Normalizing Large-Scale Untargeted Lipidomics Data"
+    authors:
+      - {family-names: "Fan", given-names: "Sili"}
+      - {family-names: "Kind", given-names: "Tobias"}
+      - {family-names: "Cajka", given-names: "Tomas"}
+      - {family-names: "Hazen", given-names: "Stanley L."}
+      - {family-names: "Tang", given-names: "W. H. Wilson"}
+      - {family-names: "Kaddurah-Daouk", given-names: "Rima"}
+      - {family-names: "Irvin", given-names: "Marguerite R."}
+      - {family-names: "Arnett", given-names: "Donna K."}
+      - {family-names: "Barupal", given-names: "Dinesh K."}
+      - {family-names: "Fiehn", given-names: "Oliver"}
+    journal: "Analytical Chemistry"
+    year: 2019
+    volume: 91
+    issue: 5
+    start: 3590
+    end: 3596
+    doi: "10.1021/acs.analchem.8b05592"
