@@ -7,11 +7,11 @@ abstract: >-
   batches, with PQC-anchored between-batch scaling, CV assessment of quality-control
   materials, and PCA coloured by batch.
 authors:
-  - family-names: "Piskláková"
-    given-names: "Barbora"
-    affiliation: "Section for Metabolomics & Lipidomics, Oslo University Hospital"
   - family-names: "Kvasnička"
     given-names: "Aleš"
+    affiliation: "Section for Metabolomics & Lipidomics, Oslo University Hospital"
+  - family-names: "Piskláková"
+    given-names: "Barbora"
     affiliation: "Section for Metabolomics & Lipidomics, Oslo University Hospital"
 version: "1.0.0"
 license: MIT
